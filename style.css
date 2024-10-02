@@ -1,0 +1,36 @@
+
+body{
+    background-color: #F9FAF3;
+    padding: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.company{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-family: 'Gaegu';font-size: 20px;
+}
+
+.navigationtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-family: 'Gaegu';font-size: 20px;
+}
+
+
+.landingtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gaegu';font-size: 35px;
+}
+
+.welcometext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gaegu';font-size: 12px;
+}
