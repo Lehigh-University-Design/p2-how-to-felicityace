@@ -6,7 +6,6 @@
     <title>How To Scrapbook</title>
     <link rel = "stylesheet" type = "text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Gaegu' rel='stylesheet'>
-
 </head>
 <body>
 
@@ -72,6 +71,23 @@
 <div class="content">
   <p>First, you will want to collect the materials you want to use in your scrap book. This could be photos, post cards, stickers, and more.</p>
 </div>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
 
 </body>
 </html>

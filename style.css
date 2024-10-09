@@ -209,16 +209,14 @@ hr.solid {
     border-radius: 56px 56px 56px 56px;
   }
 
-  .collapsible:hover {
+  .active, .collapsible:hover {
     background-color: #f4f6e9;
   }
 
   .content {
     padding: 0 18px;
-    display:none;
-    overflow:auto;
-    background-color: #F9FAF3;
-    font-family: 'Gaegu';font-size: 10px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }
-
-  
