@@ -1,6 +1,6 @@
 
 body{
-    background-color: #F9FAF3;
+    background-color:#f4f6e9;
     padding: 2%;
     padding-left: 2%;
     padding-right: 2%;
@@ -91,7 +91,7 @@ hr.solid {
     z-index: 23;
     transform: rotate(0deg);
     border-radius: 56px 56px 56px 56px;
-    background: #f9faf3ff;
+    background: #f4f6e9;
     box-sizing: border-box;
     border-left: 1px solid #000000ff;
     border-right: 1px solid #000000ff;
@@ -107,7 +107,7 @@ hr.solid {
     z-index: 20;
     transform: rotate(0deg);
     border-radius: 56px 56px 56px 56px;
-    background: #f9faf3ff;
+    background: #f4f6e9;
     box-sizing: border-box;
     border-left: 1px solid #000000ff;
     border-right: 1px solid #000000ff;
@@ -123,7 +123,7 @@ hr.solid {
     z-index: 21;
     transform: rotate(0deg);
     border-radius: 56px 56px 56px 56px;
-    background: #f9faf3ff;
+    background: #f4f6e9;
     box-sizing: border-box;
     border-left: 1px solid #000000ff;
     border-right: 1px solid #000000ff;
@@ -139,7 +139,7 @@ hr.solid {
     z-index: 25;
     transform: rotate(0deg);
     border-radius: 56px 56px 56px 56px;
-    background: #f9faf3ff;
+    background: #f4f6e9;
     box-sizing: border-box;
     border-left: 1px solid #000000ff;
     border-right: 1px solid #000000ff;
@@ -197,26 +197,28 @@ hr.solid {
   }
 
   .collapsible {
-    background-color: #F9FAF3;
+    background-color: #f4f6e9;
     color: #444;
     cursor: pointer;
     padding: 30px;
+    margin-bottom: 30px;
     width: 100%;
-    border: none;
     text-align: left;
-    outline:auto;
+    outline: auto; outline-width: 1px;
     font-family: 'Gaegu';font-size: 30px;
     border-radius: 56px 56px 56px 56px;
+    
   }
 
   .active, .collapsible:hover {
-    background-color: #f4f6e9;
+    background-color: #e4e6d5;
   }
 
   .content {
     padding: 0 18px;
-    background-color: white;
+    background-color:#f4f6e9;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-family: 'Gaegu';font-size: 28px;
   }
