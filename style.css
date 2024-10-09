@@ -184,3 +184,10 @@ body{
     overflow: hidden;
   }
   
+  .bottomtext{
+    display:flex;
+    flex-direction:row;
+    justify-content:right;
+    font-family: 'Gaegu';font-size: 10px;
+    padding-top: 18%;
+  }
