@@ -30,6 +30,10 @@ body{
     font-family: 'Gaegu';font-size: 12px;
 }
 
+hr.solid {
+  border-top: 1px solid #000000;
+}
+
 :root {
     --image-0: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADXSURBVHgBnZOBDYIwEEW/TtARygSygYzACHUC2QDcQCdgBEZwBEbQDXQDvepdIM1BS1/yk+a4X44fboc4JakiHUg16U0q1gy+uSENpBfpo8hqxnbB8CDdg5oT0z4Y1ZCepBvpxKMWXAOP7zliAaPU3GySenZOwnCzNzVck8+0KRe0yhsHBDksYaGn3nDtGrtg5MY+qFdIyMHNmqzyXHLQQv8ZJDgHnQ7/LFR6No/IwCLyu8aQ0TtkcMYUnNlqtogHt4oE1yMDWZCs4Pw6l3y+YFrbzThk8gVnukibe8pbAwAAAABJRU5ErkJggg==);
     --custom-width: 100vw;
@@ -191,3 +195,30 @@ body{
     font-family: 'Gaegu';font-size: 10px;
     padding-top: 18%;
   }
+
+  .collapsible {
+    background-color: #F9FAF3;
+    color: #444;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline:auto;
+    font-family: 'Gaegu';font-size: 30px;
+    border-radius: 56px 56px 56px 56px;
+  }
+
+  .collapsible:hover {
+    background-color: #f4f6e9;
+  }
+
+  .content {
+    padding: 0 18px;
+    display:none;
+    overflow:auto;
+    background-color: #F9FAF3;
+    font-family: 'Gaegu';font-size: 10px;
+  }
+
+  
